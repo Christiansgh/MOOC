@@ -1,4 +1,5 @@
 package YourFirstBankTransfer;
+
 public class Account {
     private String accountName;
     private double balance;
@@ -6,11 +7,11 @@ public class Account {
     /*
      * constructor
      */
-    public Account () {
+    public Account() {
         setAll("None", 0);
     }
 
-     public Account (String accountName, double balance) {
+    public Account(String accountName, double balance) {
         setAll(accountName, balance);
     }
 
@@ -48,7 +49,7 @@ public class Account {
     /*
      * toString
      */
-    public String toString () {
-        return "[Account: " + accountName + " | Balance: " + balance  + "]";
+    public String toString() {
+        return "[Account: " + accountName + " | Balance: " + balance + "]";
     }
 }
